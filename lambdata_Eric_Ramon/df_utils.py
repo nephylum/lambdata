@@ -2,5 +2,5 @@
 utility functions for working with DataFrames
 """
 
-import pandas
-TEST_DF = pandas.DataFram([1,2,3,4,5,6])
+import pandas as pd
+TEST_DF = pd.DataFrame([1,2,3,4,5,6])

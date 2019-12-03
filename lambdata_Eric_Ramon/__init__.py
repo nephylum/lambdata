@@ -5,7 +5,7 @@ import numpy as np
 
 #sample code
 ONES = pd.DataFrame(np.ones(10))
-ZEROS = pd.DataFrame(np.zeroes(10))
+ZEROS = pd.DataFrame(np.zeros(10))
 
 #sample functions
 def increment(x):
