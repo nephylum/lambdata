@@ -25,6 +25,11 @@ def train_val_test_split(df, target):
 
 
 def null_check(df):
+    """
+    Goes through a dataframe by column, reports total null values
+    found in each column, and returns total null values found in
+    DataFrame
+    """
     totalnull = 0
     nulls = 0
 
